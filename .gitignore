@@ -1,0 +1,45 @@
+node_modules
+altv-server
+*.dll
+*.exe
+update.json
+modules/
+data/
+*.log
+cache/
+athena.json
+configDiscord
+configLoadOrder
+configMongoDB
+.env
+crashdumps
+./screenshots/*
+src/core/plugins/sandbox
+cdn_upload
+tsconfig.tsbuildinfo
+athena-cache/
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+!altv-athena-hwid-win.exe
+server.cfg
+doc
+typedoc.json
+!scripts/streamer/dist
+package-lock.json
+
+# Plugin stuff
+scripts/buildresource/*.json
+src-webviews/src/plugins/imports.ts
+src-webviews/src/plugins/vue-plugin-imports.ts
+
+# Yarn stuff
+.yarn/
+yarn.lock
+
+# Resources
+
+resources/core/**
+resources/webviews/**
